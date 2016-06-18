@@ -7,7 +7,7 @@
 Via Composer
 
 ``` bash
-$ composer require grambas/queue-view
+$ composer require grambas/queue-view dev-master
 ```
 
 ## Usage

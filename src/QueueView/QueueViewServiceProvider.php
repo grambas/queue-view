@@ -30,10 +30,10 @@ class QueueViewServiceProvider extends ServiceProvider {
         // Register Views from your package
         $this->loadViewsFrom(__DIR__.'/../views', $this->packageName);
 
-        // Register your asset's publisher
-        $this->publishes([
-            __DIR__.'/../assets' => public_path('grambas/'.$this->packageName),
-        ], 'public');
+        // // Register your asset's publisher
+        // $this->publishes([
+        //     __DIR__.'/../assets' => public_path('grambas/'.$this->packageName),
+        // ], 'public');
 
         // // Register your asset's publisher
         // $this->publishes([
