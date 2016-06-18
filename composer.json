@@ -17,6 +17,7 @@
         }
     ],
     "require": {
+        "yajra/laravel-datatables-oracle": "*"
     },
     "autoload": {
         "psr-4": {
