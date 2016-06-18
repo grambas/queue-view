@@ -1,0 +1,27 @@
+{
+    "name": "grambas/queue-view",
+    "type": "library",
+    "minimum-stability": "dev",
+    "description": "View and minimal manage for Laravel database queues",
+    "keywords": [
+        "grambas",
+        "queue"
+    ],
+    "homepage": "https://github.com/grambas/queue-view",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mindaugas",
+            "email": "emai@mindaugasmilius.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yajra/laravel-datatables-oracle": "^6.11"
+    },
+    "autoload": {
+        "psr-4": {
+         "Grambas\\QueueView\\": "src/QueueView"
+        }
+    }
+}
